@@ -478,7 +478,7 @@ namespace DotNetNuke.Modules.Events {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DotNetNuke.UI.UserControls.TextEditor ftbDesktopText;
+        protected global::System.Web.UI.WebControls.TextBox ftbDesktopText;
         
         /// <summary>
         /// lblSummary control.
@@ -496,7 +496,7 @@ namespace DotNetNuke.Modules.Events {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DotNetNuke.UI.UserControls.TextEditor ftbSummary;
+        protected global::System.Web.UI.WebControls.TextBox ftbSummary;
         
         /// <summary>
         /// pnlDetailPage control.

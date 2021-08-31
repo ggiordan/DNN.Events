@@ -120,13 +120,13 @@
             <div class="dnnFormItem">
                 <dnn:Label id="lblNotes" runat="server"></dnn:Label>
 				<div  style="margin-left:150px">
-                <dnn:TextEditor id="ftbDesktopText" runat="server" width="650" height="400"></dnn:TextEditor>
+					<asp:textbox id="ftbDesktopText" runat="server" width="650" height="400" TextMode="MultiLine"></asp:textbox>
 				</div>
             </div>
             <div class="dnnFormItem SummaryHeader" style="display:none;">
                 <dnn:Label id="lblSummary" runat="server"></dnn:Label>
 				<div  style="margin-left:150px">
-                <dnn:TextEditor id="ftbSummary" runat="server" width="650" height="400"></dnn:TextEditor>
+					<asp:textbox id="ftbSummary" runat="server" width="650" height="400" TextMode="MultiLine"></asp:textbox>
 				</div>
             </div>
         </div>
