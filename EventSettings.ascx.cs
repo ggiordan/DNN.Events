@@ -33,6 +33,7 @@ using System.Web.UI.WebControls;
 using Components;
 using DNNtc;
 using DotNetNuke.Common.Lists;
+using DotNetNuke.Common.Utilities;
 using DotNetNuke.Entities.Modules;
 using DotNetNuke.Entities.Portals;
 using DotNetNuke.Entities.Tabs;
@@ -1541,6 +1542,8 @@ namespace DotNetNuke.Modules.Events
                 emSettings.Version = objDesktopModule.Version;
 
                 repository.SaveSettings(ModuleConfiguration, emSettings);
+
+                DataCache.SetCache("EventsSettings" + ModuleId, emSettings);
 
                 CreateThemeDirectory();
             }

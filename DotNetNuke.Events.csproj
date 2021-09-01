@@ -403,6 +403,8 @@
     <Content Include="Installation\ReleaseNotes\Release.07.00.05.txt" />
     <Content Include="Installation\ReleaseNotes\Release.07.00.06.txt" />
     <Content Include="Installation\ReleaseNotes\Release.07.00.07.txt" />
+    <Content Include="Installation\ReleaseNotes\Release.07.00.08.txt" />
+    <Content Include="Installation\ReleaseNotes\Release.07.00.09.txt" />
     <Content Include="Styles\jquery-ui.min.css" />
     <Content Include="SubControls\SelectLocation.ascx" />
     <Content Include="SubControls\EventIcons.ascx" />
@@ -589,6 +591,7 @@
     <Content Include="Installation\07.00.04.SqlDataProvider" />
     <Content Include="Installation\06.02.01.SqlDataProvider" />
     <Content Include="Installation\07.00.07.SqlDataProvider" />
+    <Content Include="Installation\DNN_Events.dnn" />
     <None Include="Installation\Install.05.02.04.SqlDataProvider" />
     <None Include="Installation\Project.targets">
       <SubType>Designer</SubType>

@@ -1,6 +1,6 @@
-﻿<h2>Release notes DNN_Events 07.00.08</h2>
+﻿<h2>Release notes DNN_Events 07.00.09</h2>
 <p>
-DNN_Events 07.00.07 will work for any DNN version <strong>8.0.1</strong> and up to the latest release of DNNPlatform. Full details on the changes can be found in great detail at <a href="https://github.com/DNNCommunity/DNN.Events/releases" target="_blank">the repository on GitHub</a>.
+DNN_Events 07.00.09 will work for any DNN version <strong>8.0.1</strong> and up to the latest release of DNNPlatform. Full details on the changes can be found in great detail at <a href="https://github.com/DNNCommunity/DNN.Events/releases" target="_blank">the repository on GitHub</a>.
 </p>
 <p>This is a bug fix release of the DNN_Events module.</p>
 <p>
@@ -9,9 +9,7 @@ DNN_Events 07.00.07 will work for any DNN version <strong>8.0.1</strong> and up 
 
 <h3>BUG FIXES</h3>
 <ul>
-	<li>Temporarily replace the CKE editor with a text box.  The CKE
-editor is causing problems in DNN9.10.  Once the core is created, this change
-can be reverted</li>
+	<li>Force the cache to be cleared after saving settings.</li>
 </ul>
 <h3>CHANGES</h3>
 <ul>
@@ -20,6 +18,14 @@ can be reverted</li>
 <p>&nbsp;</p>
 <hr />
 <p>Below updates since the last main release 07.00.00</p>
+
+<h2>DNN_Events 07.00.08</h2>
+<ul>
+		<li>Temporarily replace the CKE editor with a text box.  The CKE
+editor is causing problems in DNN9.10.  Once the core is created, this change
+can be reverted</li>
+
+</ul>
 
 <h2>DNN_Events 07.00.07</h2>
 <ul>
